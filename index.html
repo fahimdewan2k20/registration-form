@@ -18,8 +18,22 @@
     <form action="#">
       <fieldset>
         <legend>Basic information</legend>
-        <label for="name">Enter your name: </label>
-        <input type="text" name="name" />
+        <label for="fname">Enter your first name: </label>
+        <input type="text" name="fname" />
+        <br />
+        <label for="lname">Enter your last name: </label>
+        <input type="text" name="lname" />
+        <br />
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" />
+        <br />
+        <label for="religion">Enter your Religion: </label>
+        <select name="religion">
+          <option value="islam">Islam</option>
+          <option value="chritian">Christian</option>
+          <option value="buddha">Buddha</option>
+          <option value="hisdu">Hindu</option>
+        </select>
         <br />
         <label for="gender">Gender </label>
         <input type="radio" name="gender" value="Male" />
@@ -30,11 +44,20 @@
       <br />
       <fieldset>
         <legend>Contact Information</legend>
+        <label for="present">Present Address: </label>
+        <input type="text" name="present" />
+        <br />
+        <label for="permanent">Permanent Address: </label>
+        <input type="email" name="permanent" />
+        <br />
+        <label for="tel">Telephone: </label>
+        <input type="tel" name="tel" />
+        <br />
         <label for="email">Email: </label>
         <input type="email" name="email" />
         <br />
-        <label for="phone">Phone: </label>
-        <textarea name="phone" cols="16" rows="2"></textarea>
+        <label for="weblink">Personal Website Link: </label>
+        <input type="url" name="weblink" />
       </fieldset>
       <br />
       <fieldset>
